@@ -1,6 +1,6 @@
 package SMS::Send::CSoft;
 
-# ABSTRACT: SMS::Send CSoft Driver
+# ABSTRACT: SMS::Send driver to send via the Connection Software service
 
 =head1 SYNOPSIS
 
