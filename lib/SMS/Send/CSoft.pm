@@ -33,8 +33,6 @@ our @ISA = qw/SMS::Send::Driver/;
 our %EXPORT_TAGS = ( 'all' => [ qw() ] );
 our @EXPORT_OK = ( @{ $EXPORT_TAGS{'all'} } );
 our @EXPORT = qw();
-our $VERSION = '0.05';
-our $SVNVERSION = qw/$Revision$/[1];
 
 our $URL = 'https://www.csoft.co.uk/sendsms';
 
