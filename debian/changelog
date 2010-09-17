@@ -1,0 +1,5 @@
+libsms-send-csoft-perl (1.102480-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Mark Hindess <soft-debian@temporalanomaly.com>  Sat, 11 Sep 2010 20:26:38 +0100
