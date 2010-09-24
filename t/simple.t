@@ -1,6 +1,6 @@
 #!/usr/bin/perl -w
 #
-# Copyright (C) 2007 by Mark Hindess
+# Copyright (C) 2010 by Mark Hindess
 
 use strict;
 use Test::More tests => 13;
