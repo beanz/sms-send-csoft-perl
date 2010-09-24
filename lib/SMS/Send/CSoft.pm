@@ -1,3 +1,5 @@
+use strict;
+use warnings;
 package SMS::Send::CSoft;
 
 # ABSTRACT: SMS::Send driver to send via the Connection Software service
@@ -23,8 +25,6 @@ Software (http://www.csoft.co.uk/) SMS service.
 =cut
 
 use 5.006;
-use strict;
-use warnings;
 use SMS::Send::Driver;
 use LWP::UserAgent;
 use HTTP::Request::Common qw(POST);
