@@ -38,6 +38,9 @@ our $URL = 'https://www.csoft.co.uk/sendsms';
 
 =method CONSTRUCTOR
 
+This constructor should not be called directly.  See L<SMS::Send> for
+details.
+
 =cut
 
 sub new {
