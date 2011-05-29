@@ -6,6 +6,10 @@ use strict;
 
 BEGIN {
   require Test::More;
+  eval { require LWP::Protocol::https };
+  if ($@) {
+    import Test::More skip_all => 'No LWP::Protocol::https module: $@';
+  }
   eval { require LWP::Protocol::PSGI };
   if ($@) {
     import Test::More skip_all => 'No LWP::Protocol::PSGI module: $@';
