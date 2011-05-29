@@ -1,6 +1,7 @@
 Revision history for Perl extension SMS::Send::CSoft.
 
 {{$NEXT}}
+        - Fix test dependencies.
 
 1.111480  2011-05-28 20:48:16 Europe/London
         - Another attempt to fix test failures.
