@@ -1,28 +1,12 @@
 use strict;
 use warnings;
 package SMS::Send::CSoft;
+BEGIN {
+  $SMS::Send::CSoft::VERSION = '1.111630';
+}
 
 # ABSTRACT: SMS::Send driver to send via the Connection Software service
 
-=head1 SYNOPSIS
-
-  # Create a testing sender
-  my $send = SMS::Send->new( 'CSoft',
-                             _login => 'csoft username',
-                             _password => 'csoft pin' );
-
-  # Send a message
-  $send->send_sms(
-     text => 'Hi there',
-     to   => '+61 (4) 1234 5678',
-  );
-
-=head1 DESCRIPTION
-
-SMS::Send driver for sending SMS messages with the Connection
-Software (http://www.csoft.co.uk/) SMS service.
-
-=cut
 
 use 5.006;
 use SMS::Send::Driver;
@@ -36,12 +20,6 @@ our @EXPORT = qw();
 
 our $URL = 'https://www.csoft.co.uk/sendsms';
 
-=method CONSTRUCTOR
-
-This constructor should not be called directly.  See L<SMS::Send> for
-details.
-
-=cut
 
 sub new {
   my $pkg = shift;
@@ -85,8 +63,59 @@ sub send_sms {
 
 1;
 
+
+__END__
+=pod
+
+=head1 NAME
+
+SMS::Send::CSoft - SMS::Send driver to send via the Connection Software service
+
+=head1 VERSION
+
+version 1.111630
+
+=head1 SYNOPSIS
+
+  # Create a testing sender
+  my $send = SMS::Send->new( 'CSoft',
+                             _login => 'csoft username',
+                             _password => 'csoft pin' );
+
+  # Send a message
+  $send->send_sms(
+     text => 'Hi there',
+     to   => '+61 (4) 1234 5678',
+  );
+
+=head1 DESCRIPTION
+
+SMS::Send driver for sending SMS messages with the Connection
+Software (http://www.csoft.co.uk/) SMS service.
+
+=head1 METHODS
+
+=head2 CONSTRUCTOR
+
+This constructor should not be called directly.  See L<SMS::Send> for
+details.
+
 =head1 SEE ALSO
 
 SMS::Send(3), SMS::Send::Driver(3)
 
 Connection Software Website: http://www.csoft.co.uk/
+
+=head1 AUTHOR
+
+Mark Hindess <soft-cpan@temporalanomaly.com>
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2011 by Mark Hindess.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
+
+=cut
+
