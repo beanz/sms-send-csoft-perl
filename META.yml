@@ -26,4 +26,4 @@ requires:
 resources:
   bugtracker: http://github.com/beanz/sms-send-csoft-perl/issues
   repository: git://github.com/beanz/sms-send-csoft-perl.git
-version: 1.111630
+version: 1.111780
