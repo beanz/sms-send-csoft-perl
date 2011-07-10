@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package SMS::Send::CSoft;
 BEGIN {
-  $SMS::Send::CSoft::VERSION = '1.111780';
+  $SMS::Send::CSoft::VERSION = '1.111910';
 }
 
 # ABSTRACT: SMS::Send driver to send via the Connection Software service
@@ -73,7 +73,7 @@ SMS::Send::CSoft - SMS::Send driver to send via the Connection Software service
 
 =head1 VERSION
 
-version 1.111780
+version 1.111910
 
 =head1 SYNOPSIS
 

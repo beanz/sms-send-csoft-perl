@@ -24,6 +24,7 @@ requires:
   SMS::Send::Driver: 0
   perl: 5.006
 resources:
-  bugtracker: http://github.com/beanz/sms-send-csoft-perl/issues
+  bugtracker: https://github.com/beanz/sms-send-csoft-perl/issues
+  homepage: http://search.cpan.org/dist/SMS-Send-CSoft/
   repository: git://github.com/beanz/sms-send-csoft-perl.git
-version: 1.111780
+version: 1.111910

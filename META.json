@@ -41,14 +41,15 @@
    "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
-         "web" : "http://github.com/beanz/sms-send-csoft-perl/issues"
+         "web" : "https://github.com/beanz/sms-send-csoft-perl/issues"
       },
+      "homepage" : "http://search.cpan.org/dist/SMS-Send-CSoft/",
       "repository" : {
          "type" : "git",
          "url" : "git://github.com/beanz/sms-send-csoft-perl.git",
-         "web" : "http://github.com/beanz/sms-send-csoft-perl"
+         "web" : "https://github.com/beanz/sms-send-csoft-perl"
       }
    },
-   "version" : "1.111780"
+   "version" : "1.111910"
 }
 
