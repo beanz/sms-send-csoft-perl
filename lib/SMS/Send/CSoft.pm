@@ -1,10 +1,7 @@
 use strict;
 use warnings;
 package SMS::Send::CSoft;
-BEGIN {
-  $SMS::Send::CSoft::VERSION = '1.111910';
-}
-
+$SMS::Send::CSoft::VERSION = '1.142000';
 # ABSTRACT: SMS::Send driver to send via the Connection Software service
 
 
@@ -63,9 +60,11 @@ sub send_sms {
 
 1;
 
-
 __END__
+
 =pod
+
+=encoding UTF-8
 
 =head1 NAME
 
@@ -73,7 +72,7 @@ SMS::Send::CSoft - SMS::Send driver to send via the Connection Software service
 
 =head1 VERSION
 
-version 1.111910
+version 1.142000
 
 =head1 SYNOPSIS
 
@@ -112,10 +111,9 @@ Mark Hindess <soft-cpan@temporalanomaly.com>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2011 by Mark Hindess.
+This software is copyright (c) 2014 by Mark Hindess.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-

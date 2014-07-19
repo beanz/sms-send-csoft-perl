@@ -1,6 +1,6 @@
 Revision history for Perl extension SMS::Send::CSoft.
 
-1.111910  2011-07-10 12:52:34 Europe/London
+1.142000  2014-07-19 13:55:02+01:00 Europe/London
 
 1.111490  2011-05-29 20:05:05 Europe/London
         - Fix test dependencies.
